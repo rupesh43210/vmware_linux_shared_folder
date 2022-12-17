@@ -8,14 +8,7 @@ checksudo(){
            exit 1
         fi
  }
- 
- 
  sudo mkdir /mnt/hgfs
- 
- 
- 
- sudo echo "\n\n\n" >> /etc/fstab
- 
  sudo echo "vmhgfs-fuse /mnt/hgfs fuse defaults,allow_other 0 0" >> /etc/fstab
  
  
